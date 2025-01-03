@@ -22,6 +22,6 @@ docker run -d -P \\
 | --- | --- | --- |
 | STEAM_CMD_USER | the username for steam cmd login | anonymous |
 | STEAM_CMD_PASSWORD | the password for steam cmd login | |
-| UPDATE_EXTRA_ARGS | args passed to the steam cmd update command, i.e. workshop items | |
-| START_EXTRA_ARGS | args passed to the server start command i.e. server profile etc | |
+| EXTRA_UPDATE_ARGS | args passed to the steam cmd update command, i.e. workshop items | |
+| EXTRA_START_ARGS | args passed to the server start command i.e. server profile etc | |
 | APP_ID | the steam app id for the dayz server | 1042420 (experimental) |
