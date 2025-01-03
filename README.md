@@ -1,4 +1,6 @@
-# Docker Image for DayZ Standalone Server  
+[![Build master](https://github.com/joshuamerold/dayz-sa-server-docker/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/joshuamerold/dayz-sa-server-docker/actions/workflows/master.yml)
+
+# Docker Image for DayZ Standalone Server
   
 > Currently only Experimental Server since linux server is not yet released to stable
   
