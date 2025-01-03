@@ -7,6 +7,11 @@ on:
     tags:
       - '*'
 
+env:
+  UPSTREAM_OWNER: joshuamerold
+  REPOSITORY_NAME: dayz-sa-server-docker
+  CONTAINER_REGISTRY: ghcr.io
+
 jobs:
   docker:
     runs-on: ubuntu-latest
