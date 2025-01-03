@@ -23,6 +23,7 @@ ENV HOME ${BASE_DIR}/home
 ENV SERVER_DIR ${BASE_DIR}/server
 ENV STEAM_CMD_USER=""
 ENV STEAM_CMD_PASSWORD=""
+ENV STEAM_CMD_PASSWORD=""
 
 # base dirs
 RUN mkdir -p ${BASE_DIR} && \
@@ -53,7 +54,7 @@ USER dayz
 RUN steamcmd +quit
 
 # currently linux server is experimental only
-ENV APP_ID="1042420"
+ENV APP_ID="223350"
 
 # reset cmd & define entrypoint
 CMD [ "start" ]
